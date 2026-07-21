@@ -2,6 +2,12 @@
 
 A modern football e-commerce application built with Next.js.
 
+## Live Demo
+
+This project uses Stripe test mode, so the full checkout experience is only available on the deployed version:
+
+https://your-vercel-url.vercel.app
+
 ## Features
 
 - Product catalog
