@@ -33,7 +33,7 @@ export default function ShoppingCart() {
     >
       <SheetContent className="w-full sm:max-w-lg">
         <SheetHeader>
-          <SheetTitle>Shopping Cart</SheetTitle>
+          <SheetTitle className="font-bold">Shopping Cart</SheetTitle>
         </SheetHeader>
 
         <div className="mt-6 space-y-4">
@@ -63,14 +63,7 @@ export default function ShoppingCart() {
 
               const data = await response.json();
 
-              // console.log(data);
               window.location.href = data.url;
-
-              if (data.success) {
-                alert("Order placed! Check your email.");
-              } else {
-                alert("Something went wrong.");
-              }
             }}
           >
             Proceed to Checkout
