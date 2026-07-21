@@ -6,7 +6,7 @@ A modern football e-commerce application built with Next.js.
 
 This project uses Stripe test mode, so the full checkout experience is only available on the deployed version:
 
-https://your-vercel-url.vercel.app
+https://shoppingcart-nine-swart.vercel.app
 
 ## Features
 
