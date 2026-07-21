@@ -49,13 +49,7 @@ export const products: Product[] = [
     description: "Official 2026 World Cup match ball.",
     category: "Ball",
   },
-    {
-    id: 6,
-    name: "Penguin",
-    price: 49.99,
-    image: "/imgs/Trionda.png",
-    description: "Official 2026 World Cup match ball.",
-  }
+
 
   
   // Shoes
