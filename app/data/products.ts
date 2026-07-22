@@ -49,7 +49,14 @@ export const products: Product[] = [
     description: "Official 2026 World Cup match ball.",
     category: "Ball",
   },
-
+    {
+    id: 6,
+    name: "Grip",
+    price: 4.99,
+    image: "/imgs/grip.jpg",
+    description: "grip for penguin.",
+    category: "Grip",
+  },
 
   
   // Shoes
