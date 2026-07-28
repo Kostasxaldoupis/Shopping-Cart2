@@ -16,6 +16,7 @@ export const products: Product[] = [
     image: "/imgs/Teamgeist.jpg",
     description: "Official 2006 World Cup match ball.",
     category: "Ball",
+    brand: "Adidas"
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const products: Product[] = [
     image: "/imgs/Jabulani.jpg",
     description: "Official 2010 World Cup match ball.",
     category: "Ball",
+    brand: "Adidas"
   },
   {
     id: 3,
@@ -32,6 +34,7 @@ export const products: Product[] = [
     image: "/imgs/BrazucaImg.jpg",
     description: "Official 2014 World Cup match ball.",
     category: "Ball",
+    brand: "Adidas"
   },
   {
     id: 4,
@@ -40,6 +43,7 @@ export const products: Product[] = [
     image: "/imgs/RihlaImg.jpg",
     description: "Official 2022 World Cup match ball.",
     category: "Ball",
+    brand: "Adidas"
   },
   {
     id: 5,
@@ -48,14 +52,8 @@ export const products: Product[] = [
     image: "/imgs/Trionda.png",
     description: "Official 2026 World Cup match ball.",
     category: "Ball",
+    brand: "Adidas"
   },
   
   // Shoes
-  //   {
-  //   id: 5,
-  //   name: "Trionda",
-  //   price: 49.99,
-  //   image: "/imgs/Trionda.png",
-  //   description: "Official 2026 World Cup match ball.",
-  // },
 ];
