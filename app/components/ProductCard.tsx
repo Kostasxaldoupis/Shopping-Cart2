@@ -18,7 +18,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   return (
     <Card className="overflow-hidden transition hover:-translate-y-1 hover:border-primary">
       <CardContent className="p-0">
-        <Link href={`/store/${product.id}`}>
+        <Link href={`/store/${product.name.toLocaleLowerCase()}`}>
           <Image
             src={product.image}
             alt={product.name}
