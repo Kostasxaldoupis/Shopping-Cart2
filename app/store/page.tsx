@@ -1,9 +1,8 @@
 import { products } from "../data/products";
 import ProductCard from "../components/ProductCard";
-import { Button } from "@/components/ui/button";
 
 export default async function StorePage() {
-  await new Promise((resolve) => setTimeout(resolve, 1500));
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   return (
     <>
       <main className="mx-auto max-w-7xl px-6 py-16">

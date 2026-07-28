@@ -10,14 +10,17 @@ import { Button } from "@/components/ui/button";
 
 type Props = {
   params: Promise<{
-    id: string;
+    name: string;
   }>;
 };
 
 export default async function ProductPage({ params }: Props) {
-  const { id } = await params;
+  const { name } = await params;
 
-  const product = products.find((p) => p.id === Number(id));
+  // const product = products.find((p) => p.name.toLocaleLowerCase() === String(name));
+  const product = products.find(
+    (p) => p.name.toLowerCase() === name.toLowerCase(),
+  );
 
   if (!product) {
     notFound();
@@ -76,7 +79,6 @@ export default async function ProductPage({ params }: Props) {
           <div className="mt-10">
             <AddToCartButton id={product.id} />
           </div>
-          
         </div>
       </div>
     </main>
